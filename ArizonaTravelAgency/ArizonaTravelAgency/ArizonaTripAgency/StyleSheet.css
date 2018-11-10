@@ -1,0 +1,454 @@
+﻿body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#homeBody {
+    background-color: #f8f7f7;
+}
+
+#header {
+    height: 70px;
+    background-color: #f8f7f7;
+}
+
+#hearderNavigationContainer {
+    margin: auto;
+    width: 80%;
+    max-width: 600px;
+    min-width: 400px;
+    text-align: center;
+    height: auto;
+    margin-top: 10px;
+    background-color: #f8f7f7;
+}
+
+.topnav {
+    overflow: hidden;
+    text-align: center;
+    background-color: #f8f7f7;
+}
+
+    .topnav .icon {
+        font-family: 'Arial Rounded MT';
+        font-weight: 100;
+        color: #6f6f6f;
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .topnav a:hover {
+            text-decoration: underline;
+        }
+
+    .topnav .icon {
+        display: none;
+    }
+
+
+/*#hearderNavigationContainer div {
+        float: left;
+        width: 33.33%;
+        text-wrap: none;
+        text-align: center;
+    }
+
+    #hearderNavigationContainer p {
+        text-wrap: none;
+    }*/
+
+#normalTitle {
+    font-family: Arial;
+    font-size: 18px;
+    color: #939393;
+    font-weight: bold;
+    text-wrap: none;
+    margin-top: 6px;
+}
+
+#lefties, #leftiestwo {
+    float: right;
+    font-family: 'Arial Rounded MT';
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+#leftiestwo {
+    margin-bottom: 10px;
+}
+
+#biggestTitle {
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+#secondDiv {
+    text-align: center;
+    height: 500px;
+    /*background-color: #ca823e;*/
+    background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url('Assets/phoenix-commercial-photographer_41.jpg') center center no-repeat;
+}
+
+#secondDivItemsContainer {
+    margin: auto;
+    padding-top: 100px;
+}
+
+    #secondDivItemsContainer p {
+        font-family: Arial;
+        font-size: 28px;
+        font-weight: bolder;
+        color: white;
+        letter-spacing: 7px;
+    }
+
+    #secondDivItemsContainer #planYourTripButton {
+        margin-top: 70px;
+        background-color: transparent;
+        border: solid white 2px;
+        padding: 10px;
+        width: 350px;
+        font-family: 'Arial Rounded MT';
+        font-size: 18px;
+        letter-spacing: 10px;
+        color: white;
+
+        text-decoration: none;
+    }
+
+        #secondDivItemsContainer #planYourTripButton:hover {
+            width: 380px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.10);
+            -moz-box-shadow: rgba(0, 0, 0, 0.47) 10px 10px 10px 10px;
+            -webkit-box-shadow: rgba(0, 0, 0, 0.47) 10px 10px 10px 10px;
+            box-shadow: rgba(172, 76, 27, 0.61) 1px 5px 30px 5px;
+        }
+
+#anchorContainer {
+    margin-top: 25px;
+}
+
+
+#thirdDiv {
+    text-align: center;
+}
+
+    #thirdDiv #firstPart {
+        float: left;
+        width: 50%;
+        height: 270px;
+        text-align: center;
+        font-family: 'Arial Rounded MT';
+        font-weight: bolder;
+        letter-spacing: 3px;
+        background: linear-gradient( rgba(0, 46, 6, 0.75), rgba(0, 46, 6, 0.75) ), url('Assets/AnthemCountryClub-Anthem-AZ-hole-mountains-960x410_rotatingGalleryFront.jpg') center center no-repeat;
+    }
+
+        #thirdDiv #firstPart:hover p {
+            margin: auto;
+            margin-top: 100px;
+            padding: 15px;
+            width: 50%;
+            border: white solid 2px;
+        }
+
+    #thirdDiv #secondPart:hover p {
+        margin: auto;
+        margin-top: 110px;
+        padding: 10px;
+        width: 50%;
+        border: white solid 2px;
+    }
+
+    #thirdDiv #thirdPart:hover p {
+        margin: auto;
+        margin-top: 110px;
+        padding: 10px;
+        width: 80%;
+        border: white solid 2px;
+    }
+
+
+    #thirdDiv #thirdPart p:hover {
+        -moz-box-shadow: rgba(0, 0, 0, 0.47) 1px 5px 20px 5px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.47) 1px 5px 20px 5px;
+        box-shadow: rgba(48, 48, 48, 0.47) 1px 5px 20px 5px;
+    }
+
+    #thirdDiv #secondPart p:hover {
+        -moz-box-shadow: rgba(0, 0, 0, 0.47) 1px 5px 20px 5px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.47) 1px 5px 20px 5px;
+        box-shadow: rgba(48, 48, 48, 0.47) 1px 5px 20px 5px;
+    }
+
+    #thirdDiv #firstPart p:hover {
+        -moz-box-shadow: rgba(0, 0, 0, 0.47) 1px 5px 20px 5px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.47) 1px 5px 20px 5px;
+        box-shadow: rgba(48, 48, 48, 0.47) 1px 5px 20px 5px;
+    }
+
+    #thirdDiv #secondPart {
+        float: left;
+        width: 25%;
+        height: 270px;
+        text-align: center;
+        font-family: 'Arial Rounded MT';
+        font-weight: bolder;
+        letter-spacing: 3px;
+        background: linear-gradient( rgba(216, 52, 52, 0.75), rgba(216, 52, 52, 0.75) ), url('Assets/1.jpg') right center no-repeat;
+    }
+
+    #thirdDiv #thirdPart {
+        float: left;
+        width: 25%;
+        background: #939393;
+        height: 270px;
+        text-align: center;
+        font-family: 'Arial Rounded MT';
+        font-weight: bolder;
+        letter-spacing: 3px;
+        background: linear-gradient( rgba(107, 107, 107, 0.75), rgba(107, 107, 107, 0.75) ), url('Assets/DSC04306.jpg') center center no-repeat;
+        background-size: cover;
+    }
+
+    #thirdDiv p {
+        margin-top: 120px;
+        color: white;
+    }
+
+
+
+#fourthDiv {
+    text-align: center;
+    color: white;
+}
+
+    #fourthDiv > div {
+        float: left;
+        height: 270px;
+    }
+
+    #fourthDiv #firstPart {
+        width: 25%;
+    }
+
+        #fourthDiv #firstPart #firstRowOfFirstPart {
+            background-color: #ed9b42;
+            height: 50%;
+            margin: -16px 0 0 0;
+            background: linear-gradient( rgba(237, 164, 48, 0.75), rgba(237, 164, 48, 0.75) ), url('Assets/Colorado-River-oxbow-Kremmling-3.jpg') center center no-repeat;
+        }
+
+        #fourthDiv #firstPart #secondRowOfFirstPart {
+            background-color: #e1d54d;
+            height: 50%;
+            margin: -16px 0 0 0;
+        }
+
+    #fourthDiv #secondPart {
+        width: 25%;
+        background-color: #a4a4a4;
+    }
+
+        #fourthDiv #secondPart p {
+            margin: auto;
+            margin-top: 25px;
+            width: 70%;
+        }
+
+        #fourthDiv #secondPart #descriptionP {
+            letter-spacing: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 16px;
+        }
+
+        #fourthDiv #secondPart hr {
+            width: 20%;
+        }
+
+    #fourthDiv #thirdPart {
+        width: 50%;
+    }
+
+        #fourthDiv #thirdPart #firstRowOfThirdPart {
+            background-color: #657520;
+            height: 50%;
+            margin: -16px 0 0 0;
+        }
+
+        #fourthDiv #thirdPart #secondRowOfThirdPart {
+            background-color: #d12a2a;
+            height: 50%;
+            margin: -16px 0 0 0;
+            background: linear-gradient( rgba(255, 66, 66, 0.26), rgba(255, 66, 66, 0.26) ), url('Assets/climate-colorado-river-fcc9d324.jpg') center center no-repeat;
+        }
+
+#locationP {
+    font-family: 'Microsoft Tai Le';
+    letter-spacing: 5px;
+    font-size: small;
+}
+
+#firstPart #bigNumberP {
+    font-size: 56px;
+    margin-top: -15px;
+    margin-bottom: -20px;
+    font-weight: 100;
+}
+
+#firstPart #locationP {
+    padding-top: 20px;
+    margin-top: 16px;
+}
+
+#firstPart #smallTextP {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+
+#fourthDiv #thirdPart #firstRowOfThirdPart #locationP, #fourthDiv #thirdPart #secondRowOfThirdPart #locationP {
+    padding-top: 20px;
+    margin-top: 16px;
+}
+
+#fourthDiv #thirdPart #firstRowOfThirdPart #bigNumberP, #fourthDiv #thirdPart #secondRowOfThirdPart #bigNumberP {
+    font-size: 56px;
+    margin-top: -15px;
+    margin-bottom: -20px;
+    font-weight: 100;
+}
+
+
+#fourthDiv #thirdPart #firstRowOfThirdPart #smallTextP, #fourthDiv #thirdPart #secondRowOfThirdPart #smallTextP {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+#bigNumberP {
+    font-family: 'Arial';
+    font-weight: 100;
+}
+
+
+.title {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Arial Rounded MT';
+}
+
+
+#myForm {
+    font-family: 'Arial Rounded MT';
+}
+
+.myInput {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#contactBody > h1{
+    text-align: center;
+    font-family: 'Arial Rounded MT';
+}
+
+#contactBody > #contactContentDiv > div {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#contactBody > div > address {
+    text-align: center;
+    padding-top: 250px;
+}
+
+#contactBody > hr{
+    width: 50%;
+    margin: auto;
+}
+
+/*@media only screen and (max-width: 1200) {
+    nav {
+        padding-left: 50%;
+    }
+}*/
+@media only screen and (max-width: 800px) {
+    #normalTitle {
+        font-size: 13px;
+    }
+
+    #biggestTitle {
+        font-size: 21px;
+        min-width: 100px;
+    }
+
+    #fourthDiv #secondPart #descriptionP {
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    #lefties, #leftiestwo {
+        margin-top: 6px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:nth-child(2)) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    #myTopnav {
+        padding-top: 10px;
+        margin-bottom: -15px;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0px;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    #lefties, #leftiestwo {
+        float: none;
+    }
+}
+
+/*@media only screen and (max-width: 820){
+    nav {
+        padding-left: 10%;
+    }
+}*/

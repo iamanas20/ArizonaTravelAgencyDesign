@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet"/>
+    <script src="Script.js" type="text/javascript"></script>
+</head>
+<body style="padding: 0 0 0 0; background-color: #f8f7f7 ;margin: 0 0 0 0">
+    <div id="header">
+        <div class="topnav" id="myTopnav">
+            <a href="" id="normalTitle">Marble Canyon</a>
+            <a href="HomePage.html" id="biggestTitle" class="active">LEES FERRY</a>
+            <a href="" id="normalTitle">Arizona USA</a>
+            <a id="lefties" href="#contact">Contact</a>
+            <a id="leftiestwo" href="Signup.html">Sign Up</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">MENU</a>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <h1 style="font-family: 'Arial Rounded MT'; text-align:center;">ARIZONA USA</h1>
+
+    <div style="height:400px; width: 70%; margin:auto; margin-top: 50px;" id="map"></div>
+
+    <script>
+        function initMap() {
+            var uluru = { lat: 34.0489, lng: -111.0937 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 4,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwZ5S2iMUEcfV_Vs3zvKI-iSjtQw7FZGw &callback=initMap">
+    </script>
+
+</body>
+</html>

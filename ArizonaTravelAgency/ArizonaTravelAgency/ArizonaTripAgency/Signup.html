@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="Script.js"></script>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="header">
+        <div class="topnav" id="myTopnav">
+            <a href="" id="normalTitle">Marble Canyon</a>
+            <a href="HomePage.html" id="biggestTitle" class="active">LEES FERRY</a>
+            <a href="" id="normalTitle">Arizona USA</a>
+            <a id="lefties" href="Contact.html">Contact</a>
+            <a id="leftiestwo" href="Signup.html">Sign Up</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">MENU</a>
+        </div>
+    </div>
+
+
+    <h1 class="title">Sign Up</h1>
+    <hr width="50%">
+    <form id="myForm" action="" onsubmit="alert('You have signed in');" method="GET">
+
+        <table align="center">
+            <tr>
+                <td width="50%">Nom : </td>
+                <td><input type="text" name="nom"></td>
+            </tr>
+
+            <tr>
+                <td>Prénom : </td>
+                <td><input type="text" name="prenom"></td>
+            </tr>
+            <tr>
+                <td>CNE : </td>
+                <td><input type="text" name="cne"></td>
+            </tr>
+
+            <tr>
+                <td>Date de naissance : </td>
+                <td><input type="date" name="daten"></td>
+            </tr>
+
+            <tr>
+                <td>Age : </td>
+                <td><input type="number" min="16" max="25" name="nom"></td>
+            </tr>
+
+            <tr>
+                <td>Adresse :</td>
+                <td><textarea cols="21" rows="3"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Telephone :</td>
+                <td>
+                    <input type="text" name="tele">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email :</td>
+                <td><input type="Email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Sexe :</td>
+                <td>
+                    <input type="radio" name="sexe" />Homme
+                    <input type="radio" name="sexe" />Femme
+                </td>
+            </tr>
+
+        </table>
+
+        <br>
+        <div class="myInput" ><input type="submit" name="Valider" value="Valider" /></div>
+
+    </form>
+</body>
+</html>
